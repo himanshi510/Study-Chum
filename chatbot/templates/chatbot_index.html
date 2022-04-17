@@ -1,0 +1,257 @@
+<!doctype html>
+<html>
+<head>
+<link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="Robo.jpeg"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Benne&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <style>
+        body {
+    background: rgb(244, 218, 245);
+    font-family: monospace;
+  }
+  * {
+  margin: 0;
+  padding: 0;
+}
+
+.header,
+.book-appointment {
+  width: 100%;
+  background: rgb(244, 218, 245);
+  position: relative;
+}
+
+.footer {
+  width: 100%;
+  max-height: 30px;
+  background: #c8b0f7;
+  position: relative;
+  bottom: 0;
+  align-items: center;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.logo {
+  margin: 1rem;
+  border-radius: 100%;
+  max-width: 85px;
+  max-height: 85px;
+}
+
+.nav-links {
+  flex: 1;
+  text-align: center;
+}
+
+nav {
+  background-color: #c8b0f7;
+  height: 90px;
+  display: flex;
+  padding: 0% 2%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  text-align: right;
+}
+
+nav ul li {
+  vertical-align: middle;
+  display: inline-block;
+  padding: 8px 12px;
+  text-align: center;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  padding: 8px 8px 8px 8px;
+  vertical-align: middle;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
+.heading {
+  font-size: 60px;
+  color: black;
+}
+
+.heading span {
+  font-style: italic;
+  font-size: 30px;
+}
+  #chatbox {
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    margin-top: 60px;
+  }
+  #buttonInput {
+    font-size: 20px;
+    position: fixed;
+    right: 290px;
+    width: 60px;
+    bottom:0;
+  }
+  #userInput {
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    margin-top: 60px;
+  }
+  #textInput {
+    width: 500px;
+    border: none;
+    border-bottom: 3px solid black;
+    font-family: monospace;
+    font-size: 20px;
+    position: fixed;
+    bottom: 0;
+  }
+  .userText {
+    color: white;
+    font-family: monospace;
+    font-size: 20px;
+    text-align: right;
+    line-height: 30px;
+    position: absolute;
+    right: 7%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .userText span {
+    background-color: #808080;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+  }
+  .botText {
+    color: white;
+    font-family: monospace;
+    font-size: 20px;
+    text-align: left;
+    line-height: 30px;
+    position: absolute;
+    left: 7%;
+  }
+  .botText span {
+    background-color: rgb(161, 199, 243);
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    float: left;
+  }
+  #tidbit {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+  }
+  .boxed {
+    background: #c8b0f7;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    margin-top: 30px;
+    border: 2px solid #3c005a;
+    height: 500px;
+  }
+  .box {
+    border: 2px solid black;
+  }
+
+  .robo {
+    margin-right: 5px;
+    border-radius: 100%;
+    width: 100%;
+    max-height: 100px;
+    display: inline-flex;
+  }
+  </style>
+</head>
+
+<body>
+<section class = "header">
+        <nav>
+            <a href="../Websites/Index.html">
+                <img class = "logo" src="../templates/Logo.png">
+            </a>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="../Hydrangea-Hacks/Websites/Index.html">HOME</a></li>
+                    <li><a href="../Hydrangea-Hacks/Websites/Pyschological Assesment.html">PSYCHOLOGICAL <br> ASSESSMENT</a></li>
+                    <li><a href="../Hydrangea-Hacks/Websites/Soothe Thyself.html">SOOTHE <br> THYSELF</a></li>
+                    <li><a href="../Hydrangea-Hacks/Websites/Conquering Covid.html">CONQUERING <br> COVID</a></li>
+                    <li><a href="">CHAT BOT</a></li>
+                    <li><a href="../Hydrangea-Hacks/Websites/About Us.html">ABOUT US</a></li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+    <section class="heading">
+      <div class = "robo">
+        <img
+            src="../templates/Robo.jpg"
+            style="width:40px;height:40px;"
+            class="center"
+        /> 
+        <h1 class="heading"> JIFFY<span>Your mental-health chatbot</span></h1> 
+      </div>
+    </section>
+<div class="box">
+    <div class="boxed">
+        <div>
+            <div id="chatbox">              
+                <p class="botText">
+                    <span> Hi! I am Jiffy, your Mental-Health Helper. </span>
+                </p>
+            </div>
+          
+        <div id="userInput">
+            <input id="textInput" type="text" name="msg" placeholder="Message"/>
+            <input id="buttonInput" type="submit" value="Send">
+        </div>
+        </div>
+    </div>
+  </div>
+
+    <script>
+        function getBotResponse(){
+            var rawText=$("#textInput").val();
+            var userHtml='<p class="userText"><span>'+ rawText + '</span></p>';
+            $("#textInput").val("");
+            $("#chatbox").append(userHtml);
+            document.getElementById('userInput').scrollIntoView({block:'start',behaviour:'smooth'});
+            $.get("/get",{msg:rawText}).done(function(data){
+                var botHtml='<p class="botText"><span>' + data + '</span></p>';
+                $("#chatbox").append(botHtml);
+                document.getElementById('userInput').scrollIntoView({block:'start',behaviour:'smooth'});
+            });
+        }
+        $("#textInput").keypress(function(e){
+            if(e.which==13){
+                getBotResponse();
+            }
+        });
+        $("#buttonInput").click(function(){
+            getBotResponse();
+        });
+    </script>
+
+</div>
+</body>
+</html>
