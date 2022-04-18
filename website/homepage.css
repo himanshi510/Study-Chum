@@ -35,11 +35,11 @@
 
 .four{
 
-    width: 100%;
-    height: 100%;
-    /* position: relative; */
-    top: 350px;
-    left: 600px;
+    width: 25%;
+    height: 25%;
+    position: absolute;
+    top: 330px;
+    left: 350px;
 
 }
 
