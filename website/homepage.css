@@ -1,0 +1,85 @@
+#header{
+    width: 99%;
+    height: 40%;
+    position: absolute;
+}
+
+.one{
+
+    width: 20%;
+    height: 20%;
+    position: absolute;
+    top: 350px;
+    margin-left: 10px;
+
+}
+
+.two{
+
+    width: 15%;
+    height: 15%;
+    position: absolute;
+    top: 350px;
+    right: 75px;
+
+}
+
+.three{
+    width: 130px;
+    height: 30px;
+    position: absolute;
+    top: 350px;
+    right: 600px;
+
+}
+
+.four{
+
+    width: 100%;
+    height: 100%;
+    /* position: relative; */
+    top: 350px;
+    left: 600px;
+
+}
+
+/* div{
+    display:inline-block;
+    float:left;
+    color:#fff;
+    font-size:40px;
+    position: relative;
+    align-items:center;
+    justify-content:center;
+  
+  } */
+  
+  
+  a, a:hover, a:focus, a:active {
+        text-decoration: none;
+        color: inherit;
+   }
+  .footer {
+    position: fixed;
+    bottom:0;
+    left:0;
+    width:100%;
+    height: 70px;
+    background-color:black;
+    opacity: 0.3;
+    color: white;
+  }
+  
+  
+  .footer-text-left {
+    font-size:25px;
+    padding-left:40px;
+    float: left;
+    word-spacing: 12px;
+  }
+  
+  a.menu:hover {
+    background-color:black;
+    font-size:20px;
+  }
+  
