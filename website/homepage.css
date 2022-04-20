@@ -1,45 +1,36 @@
 #header{
     width: 99%;
-    height: 40%;
+    height: 50%;
     position: absolute;
 }
 
 .one{
-
-    width: 20%;
-    height: 20%;
     position: absolute;
-    top: 350px;
-    margin-left: 10px;
+    top: 450px;
+    margin-left: 50px;
 
 }
 
 .two{
-
-    width: 15%;
-    height: 15%;
     position: absolute;
-    top: 350px;
-    right: 75px;
+    top: 450px;
+    right: 100px;
 
 }
 
 .three{
-    width: 130px;
-    height: 30px;
+    
     position: absolute;
-    top: 350px;
+    top: 435px;
     right: 450px;
 
 }
 
 .four{
 
-    width: 25%;
-    height: 25%;
     position: absolute;
-    top: 330px;
-    left: 300px;
+    top: 435px;
+    left: 450px;
 
 }
 

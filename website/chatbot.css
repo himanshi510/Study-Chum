@@ -43,8 +43,10 @@ font-size:20px;
     margin-left: auto;
     margin-right: auto;
     width: 40%;
-    margin-top: 60px;
+    margin-bottom: 60px;
+    bottom: 100px;
   }
+
   #textInput {
     width: 400px;
     border: none;
@@ -95,7 +97,7 @@ font-size:20px;
     left: 7%;
   }
   .botText span {
-    background-color: rgb(77, 222, 32);
+    background-color: #EEE2DC;
     color: black;
     padding: 10px;
     border-radius: 10px;
@@ -108,12 +110,12 @@ font-size:20px;
     width: 300px;
   }
   .boxed {
-    background: #f47405;
+    background: #123C69;
     margin-left: auto;
     margin-right: auto;
     width: 90%;
     margin-top: 30px;
-    border: 2px solid #f44c3c;
+    border: 2px solid #123C69;
     height: 500px;
   }
   .box {
