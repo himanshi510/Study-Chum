@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Pomodoro Timer</title>
+</head>
+
+<body>
+    <h1>Pomodoro Timer</h1>
+
+    <div id="Mainbox">
+        <p id="Pomodoro" class="label">Pomodoro</p>
+        <p id="shortbreak" class="label">Short Break</p>
+        <p id="longbreak" class="label">Long Break</p>
+        <!--pomodoro timer-->
+        <div id="pmtimer" class="clock">
+            <p id="p_min">25</p>
+            <p class="semicolon">:</p>
+            <p id="p_sec">00</p>
+        </div>
+        <!--short break timer-->
+        <div id="sbtimer" class="clock">
+            <p id="sb_min">05</p>
+            <p class="semicolon">:</p>
+            <p id="sb_sec">00</p>
+        </div>
+        <!--long break timer-->
+
+        <div id="lbtimer" class="clock">
+            <p id="lb_min">15</p>
+            <p class="semicolon">:</p>
+            <p id="lb_sec">00</p>
+        </div>
+        <!--button-->
+        <button id="start" class="btn">Start</button>
+        <button id="stop" class="btn">Stop</button>
+        <button id="reset" class="btn">Reset</button>
+        <p id="cycle" class="clock">#0</p>
+
+        <p id="Quote" class="clock">Stay Focused!</p>
+
+
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
