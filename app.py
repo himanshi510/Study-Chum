@@ -38,6 +38,22 @@ trainer.train(r'C:\Users\siya1\OneDrive\Desktop\Google-India-Hackathon\chatbot\d
 
 @app.route("/")
 def index():
+    return render_template("homepage.html")  #to send context to html file
+
+@app.route("/performance")
+def index():
+    return render_template("performance.html") 
+
+@app.route("/privacy")
+def index():
+    return render_template("privacy.html")  
+
+@app.route("/siteblocker")
+def index():
+    return render_template("siteblocker.html")  
+ 
+@app.route("/chatbot")
+def index():
     return render_template("chatbot_index.html")  #to send context to html file
 
 @app.route("/get") #to get bot response
