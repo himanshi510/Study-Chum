@@ -34,27 +34,32 @@ trainer=ChatterBotCorpusTrainer(bot)
 #this is for the custom data:
 trainer.train("chatterbot.corpus.english")
 #making our own data:
-trainer.train(r'C:\Users\siya1\OneDrive\Desktop\Google-India-Hackathon\chatbot\data\data.yml')
+trainer.train(r'/root/.vscode-server/Google-India-Hackathon/data/data.yml')
 
 @app.route("/")
-def index():
+def indexxx():
     return render_template("homepage.html")  #to send context to html file
 
 @app.route("/performance")
-def index():
+def ind():
     return render_template("performance.html") 
 
 @app.route("/privacy")
-def index():
+def inde():
     return render_template("privacy.html")  
 
 @app.route("/siteblocker")
-def index():
+def indexx():
     return render_template("siteblocker.html")  
  
 @app.route("/chatbot")
 def index():
     return render_template("chatbot_index.html")  #to send context to html file
+
+ 
+@app.route("/aboutus")
+def about():
+    return render_template("aboutUs.html")  #to send context to html file
 
 @app.route("/get") #to get bot response
 def get_bot_response():
