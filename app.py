@@ -40,6 +40,10 @@ trainer.train(r'/root/.vscode-server/Google-India-Hackathon/data/data.yml')
 def indexxx():
     return render_template("homepage.html")  #to send context to html file
 
+@app.route("/home")
+def homex():
+    return render_template("homepage.html")  #to send context to html file
+
 @app.route("/performance")
 def ind():
     return render_template("performance.html") 
@@ -47,6 +51,10 @@ def ind():
 @app.route("/privacy")
 def inde():
     return render_template("privacy.html")  
+
+@app.route("/feedback")
+def feedback():
+    return render_template("feedback.html")  
 
 @app.route("/siteblocker")
 def indexx():
