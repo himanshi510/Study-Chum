@@ -13,9 +13,73 @@ h1 {
 #Mainbox {
     height: 400px;
     width: 600px;
-    background-color: white;
+    background-color: rgb(241, 168, 168);
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(3, 1fr);
+}
+
+#pmtimer {
+    display: inline;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 115px;
+}
+
+#Pomodoro {
+    margin-left: 91px;
+    font-weight: bold;
+}
+
+#shortbreak {
+    margin-left: 97%;
+    font-weight: bold;
+}
+
+#longbreak {
+    margin-left: 150%;
+    font-weight: bold;
+}
+
+#sbtimer {
+    display: inline;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 280px;
+}
+
+#start {
+    top: 50%;
+    position: absolute;
+    left: 39%;
+    height: 14.5%;
+    width: 9%;
+}
+
+#reset {
+    top: 50%;
+    position: absolute;
+    left: 49%;
+}
+
+#lbtimer {
+    display: inline;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 447px;
+}
+
+#Quote {
+    top: 66%;
+    position: absolute;
+    left: 41%;
+    font-weight: bold;
+}
+
+#cycle {
+    left: 760px;
+    display: inline;
+    position: absolute;
+    top: 310px;
 }
