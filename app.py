@@ -61,7 +61,7 @@ def index():
     return render_template("chatbot_index.html")  #to send context to html file
 
  
-@app.route("/todolist")
+@app.route("/todolist",methods= ["POST", "GET"])
 def todo():
     return render_template("todoList.html")  #to send context to html file
 

@@ -21,10 +21,11 @@ h1 {
 }
 
 #pmtimer {
-    display: inline;
+    display: flex;
     position: absolute;
-    margin-top: 50px;
-    margin-left: 115px;
+    margin-top: 80px;
+    margin-left: 112px;
+    font-size: 18px;
 }
 
 #Pomodoro {
@@ -43,10 +44,11 @@ h1 {
 }
 
 #sbtimer {
-    display: inline;
+    display: flex;
     position: absolute;
-    margin-top: 50px;
-    margin-left: 280px;
+    margin-top: 80px;
+    margin-left: 277px;
+    font-size: 18px;
 }
 
 #start {
@@ -60,26 +62,27 @@ h1 {
 #reset {
     top: 50%;
     position: absolute;
-    left: 49%;
+    left: 50.5%;
 }
 
 #lbtimer {
-    display: inline;
+    display: flex;
     position: absolute;
-    margin-top: 50px;
-    margin-left: 447px;
+    margin-top: 80px;
+    margin-left: 442px;
+    font-size: 18px;
 }
 
 #Quote {
     top: 66%;
     position: absolute;
-    left: 41%;
+    left: 45%;
     font-weight: bold;
 }
 
 #cycle {
-    left: 760px;
+    margin-left: 280px;
     display: inline;
     position: absolute;
-    top: 310px;
+    top: 270px;
 }
