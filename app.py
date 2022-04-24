@@ -40,6 +40,10 @@ trainer.train(r'data/data.yml')
 def indexxx():
     return render_template("homepage.html")  #to send context to html file
 
+@app.route("/home")
+def home():
+    return render_template("homepage.html")  #to send context to html file
+
 @app.route("/performance")
 def ind():
     return render_template("performance.html") 
@@ -55,6 +59,11 @@ def indexx():
 @app.route("/chatbot")
 def index():
     return render_template("chatbot_index.html")  #to send context to html file
+
+ 
+@app.route("/todolist")
+def todo():
+    return render_template("todoList.html")  #to send context to html file
 
  
 @app.route("/aboutus")

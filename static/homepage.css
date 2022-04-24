@@ -1,38 +1,33 @@
-#header{
+#header {
     width: 99%;
     height: 50%;
     position: absolute;
 }
 
-.one{
+.one {
     position: absolute;
-    top: 450px;
-    margin-left: 50px;
-
+    top: 435px;
+    margin-left: 100px;
 }
 
-.two{
+.two {
     position: absolute;
-    top: 450px;
+    top: 435px;
     right: 100px;
-
 }
 
-.three{
-    
+.three {
     position: absolute;
     top: 435px;
-    right: 450px;
-
+    right: 380px;
 }
 
-.four{
-
+.four {
     position: absolute;
     top: 435px;
-    left: 450px;
-
+    left: 385px;
 }
+
 
 /* div{
     display:inline-block;
@@ -44,33 +39,34 @@
     justify-content:center;
   
   } */
-  
-  
-  a, a:hover, a:focus, a:active {
-        text-decoration: none;
-        color: inherit;
-   }
-  .footer {
+
+a,
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer {
     position: fixed;
-    bottom:0;
-    left:0;
-    width:100%;
+    bottom: 0;
+    left: 0;
+    width: 100%;
     height: 70px;
-    background-color:black;
+    background-color: black;
     opacity: 0.3;
     color: white;
-  }
-  
-  
-  .footer-text-left {
-    font-size:25px;
-    padding-left:40px;
+}
+
+.footer-text-left {
+    font-size: 25px;
+    padding-left: 40px;
     float: left;
     word-spacing: 12px;
-  }
-  
-  a.menu:hover {
-    background-color:black;
-    font-size:20px;
-  }
-  
+}
+
+a.menu:hover {
+    background-color: black;
+    font-size: 20px;
+}
