@@ -1,14 +1,91 @@
-html, body {
-    width: 50%;
+html {
+    background-color: #e45d5d;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+/* #main {
+    height: 400px;
+    width: 600px;
+    background-color: rgb(241, 168, 168);
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+} */
+
+h1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin-left: 180px;
+    margin-top: 30px;
+}
+
+body {
+    width: 100%;
     margin: 0 auto;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.container {
+.mainbox {
+    width: 350px;
+}
+
+
+/* .Doing {
+    display: flex;
+    place-items: center;
+    margin-top: 0px;
+}
+
+.Done {
+    display: flex;
+    place-items: center;
+    margin-top: 0px;
+} */
+
+.ToDo {
+    display: inline-block;
     width: 360px;
 }
 
-#inputField {
+.ToDoo {
+    display: inline-block;
+    width: 360px;
+    /* margin-top: 10px; */
+    margin-left: 400px;
+}
+
+.ToDooo {
+    display: inline-block;
+    width: 360px;
+    margin-left: 460px;
+}
+
+#do {
+    width: 300px;
+    height: 46px;
+    border-width: 0;
+    border: 1px solid black;
+    outline: none;
+    font-size: 25px;
+    vertical-align: left;
+}
+
+#doin {
     width: 300px;
     height: 46px;
     border-width: 0;
@@ -18,20 +95,53 @@ html, body {
     vertical-align: middle;
 }
 
-#addToDo {
+#done {
+    width: 300px;
+    height: 46px;
+    border-width: 0;
+    border: 1px solid black;
+    outline: none;
+    font-size: 25px;
+    vertical-align: right;
+}
+
+
+/* #input {
+    width: 300px;
+    height: 46px;
+    border-width: 0;
+    border: 1px solid black;
+    outline: none;
+    font-size: 25px;
+    vertical-align: middle;
+} */
+
+#add {
     height: 50px;
     width: 50px;
     border: 1px solid black;
-    vertical-align: middle;
+    vertical-align: right;
     font-size: 30px;
 }
 
-.paragraph-styling {
-    margin: 0;
-    cursor: pointer;
-    font-size: 20px;
+#add2 {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    vertical-align: right;
+    font-size: 30px;
 }
 
-.to-dos {
-    margin-top: 25px;
+#add3 {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    vertical-align: right;
+    font-size: 30px;
 }
+
+
+/* .some {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+} */

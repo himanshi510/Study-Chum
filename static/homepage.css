@@ -7,19 +7,19 @@
 .one {
     position: absolute;
     top: 360px;
-    margin-left: 100px;
+    margin-left: 250px;
 }
 
 .two {
     position: absolute;
     top: 360px;
-    right: 100px;
+    margin-left: 850px;
 }
 
 .three {
     position: absolute;
     top: 360px;
-    right: 380px;
+    margin-left: 550px;
 }
 
 .four {

@@ -1,17 +1,50 @@
-let addToDoButton = document.getElementById('addToDo');
-let toDoContainer = document.getElementById('toDoContainer');
-let inputField = document.getElementById('inputField');
+var todobox = document.getElementById('todobox');
+var doo = document.getElementById('do');
+var doin = document.getElementById('doin');
+let addb = document.getElementById('add');
+let addbbb = document.getElementById('add2');
 
-addToDoButton.addEventListener('click', function() {
-    var paragraph = document.createElement('p');
-    paragraph.classList.add('paragraph-styling');
-    paragraph.innerText = inputField.value;
-    toDoContainer.appendChild(paragraph);
-    inputField.value = "";
-    paragraph.addEventListener('click', function() {
-        paragraph.style.textDecoration = "line-through";
+let addbb = document.getElementById('add3');
+var done = document.getElementById('done');
+
+
+addb.addEventListener('click', function() {
+    var m = document.createElement('p');
+    m.classList.add('m-styling');
+    m.innerText = doo.value;
+    todobox.appendChild(m);
+
+    doo.value = "";
+    m.addEventListener('click', function() {
+        m.style.textDecoration = "line-through";
     })
-    paragraph.addEventListener('dblclick', function() {
-        toDoContainer.removeChild(paragraph);
+    m.addEventListener('dblclick', function() {
+        todobox.removeChild(m);
+    })
+})
+addbb.addEventListener('click', function() {
+    var m = document.createElement('p');
+    m.classList.add('m-styling');
+    m.innerText = done.value;
+    donebox.appendChild(m);
+    done.value = "";
+    m.addEventListener('click', function() {
+        m.style.textDecoration = "line-through";
+    })
+    m.addEventListener('dblclick', function() {
+        donebox.removeChild(m);
+    })
+})
+addbbb.addEventListener('click', function() {
+    var m = document.createElement('p');
+    m.classList.add('m-styling');
+    m.innerText = doin.value;
+    doingbox.appendChild(m);
+    doin.value = "";
+    m.addEventListener('click', function() {
+        m.style.textDecoration = "line-through";
+    })
+    m.addEventListener('dblclick', function() {
+        doingbox.removeChild(m);
     })
 })
