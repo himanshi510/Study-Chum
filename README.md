@@ -1,2 +1,2 @@
 # Study-Chum
-Project by Team Swaggers for Google India Girls Hackathon 2022.
+Project by Team Swaggers for Google India Girl Hackathon 2022.
