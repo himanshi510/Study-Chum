@@ -27,7 +27,7 @@ Study Chum is a web application designed to address the challenges faced by stud
 ## Team Members
 - [**Himanshi Sethi**](https://github.com/himanshi510)
 - [**Srishti Jain**](https://github.com/srishti20543)
-- **Siya Garg**
+- [**Siya Garg**](https://github.com/siyag12)
 
 ## Problem Addressed
 The COVID-19 pandemic has significantly increased loneliness and procrastination among students due to the lack of physical surroundings and interaction in online learning. Study Chum aims to mitigate these issues by providing a virtual companion and tools to enhance productivity.
