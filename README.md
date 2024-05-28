@@ -25,8 +25,8 @@ Study Chum is a web application designed to address the challenges faced by stud
 - **Enhanced Privacy:** Improve data security for user interactions with the chatbot and other features.
 
 ## Team Members
-- **Himanshi Sethi**
-- ;**Srishti Jain**](https://github.com/srishti20543)
+- [**Himanshi Sethi**](https://github.com/himanshi510)
+- [**Srishti Jain**](https://github.com/srishti20543)
 - **Siya Garg**
 
 ## Problem Addressed
